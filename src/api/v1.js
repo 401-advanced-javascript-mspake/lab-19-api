@@ -29,13 +29,6 @@ router.get('/api/v1/:model/:id', handleGetOne);
 router.put('/api/v1/:model/:id', handlePut);
 router.delete('/api/v1/:model/:id', handleDelete);
 
-router.use(express.static(process.env.DOCS_FILEPATH));
-router.use('/api/v1',(req, res) => {
-  console.log(cwd);
-  res.render('/index.html');
-});
-
-
 // Route Handlers
 
 /**
