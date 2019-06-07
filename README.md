@@ -40,4 +40,4 @@ Endpoints:
 * `/api/v1/:model/:id`  
   
 #### UML
-![uml](https://github.com/401-advanced-javascript-mspake/lab-19-api/blob/refactor-api-with-nmq /assets/uml.jpeg)
+![uml](https://github.com/401-advanced-javascript-mspake/lab-19-api/blob/refactor-api-with-nmq/assets/uml.jpeg)
